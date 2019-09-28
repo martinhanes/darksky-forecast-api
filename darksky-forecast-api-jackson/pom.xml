@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tk.plogitech</groupId>
-    <artifactId>darksky-forecast-api-jackson</artifactId>
+    <artifactId>darksky-forecast-api-jackson-1.8</artifactId>
     <version>2.0.2</version>
     <packaging>jar</packaging>
     <properties>
@@ -12,14 +12,14 @@
 	<jackson.version>2.9.9</jackson.version>
 	<project.scm.id>git</project.scm.id>
     </properties>
-    <name>darksky-forecast-api-jackson</name>
+    <name>darksky-forecast-api-jackson-1.8</name>
     <description>Extends the darksky-forecast-api library to add JSON parsing support based on Jackson.</description>   
     <url>https://www.plogitech.tk</url>
 
     <dependencies>
 	<dependency>
 	    <groupId>tk.plogitech</groupId>
-	    <artifactId>darksky-forecast-api</artifactId>
+	    <artifactId>darksky-forecast-api-1.8</artifactId>
 	    <version>2.0.2</version>
 	</dependency>
 	<dependency>
